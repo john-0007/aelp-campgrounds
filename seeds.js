@@ -2,7 +2,7 @@ var mongoose=require("mongoose");
 var Campground=require("./models/campground");
 var Comment=require("./models/comment");
 
-var data=[
+var data=[   
     {
          name:"Cloud's Rest",
          image:"https://farm4.staticflickr.com/3872/14435096036_39db8f04bc.jpg",

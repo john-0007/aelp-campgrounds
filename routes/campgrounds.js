@@ -6,7 +6,7 @@ var middleware=require("../middleware");
 router.get("/",function(req,res){
    var campground=Campground.find({},function(err,campgrounds){
        if(err){
-           console.log(err);
+           console.log(err);   
        }else{
            res.render("campgrounds/index",{campgrounds:campgrounds});
        }

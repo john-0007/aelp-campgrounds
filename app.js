@@ -7,7 +7,7 @@ var express=require("express"),
     LocalStrategy=require("passport-local"),
     methodOverride=require("method-override"),
     seedDb=require("./seeds"),
-    Comment=require("./models/comment"),
+    Comment=require("./models/comment"),   
     User=require("./models/user"),
     Campground=require("./models/campground");
     
